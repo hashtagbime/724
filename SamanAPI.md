@@ -304,7 +304,7 @@ the process of releasing an insurance in the app is different from what ad to gi
             URL = http://87.107.135.248:3000/SamanAPI/FileControl/submitInsuranceCard
             Method = POST
             Headers = {
-                                        Client-Key: the client key that were gavin to you in the previews document,
+                                        Client-Key: the client key that were gahvin to you in the previews document,
                                         Authorization : user token given in the creation request
                               }
             request body = {
