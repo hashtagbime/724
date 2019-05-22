@@ -617,6 +617,9 @@ the process of releasing an insurance in the app is different from what ad to gi
             in this route you can send the phone number of the user that where sent to the server in basicinfo and get all the requests he/she made
             Method:GET
             URL: http://87.107.135.248:3000/samanAPI/Statistics/HealthRequestsLisByPhoneNumber?phone=09381434789
+            Headers = {
+                                            Client-Key: the client key that were gavin to you in the previews document
+                                  }
             Params: {
                 phone: the user's phone number
             }
