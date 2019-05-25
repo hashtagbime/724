@@ -365,7 +365,7 @@ the process of releasing an insurance in the app is different from what ad to gi
                         }
         response status code on success = 200
     b. approving the payment
-        URL = http://87.107.135.248:3000/samanAPI/Payment/inVoice?res_num=499&msisdn=09381434789&ref_num=02552222&trace_num=2588855555555&amount=100000
+        URL = http://87.107.135.248:3000/samanAPI/Payment/calback?res_num=499&msisdn=09381434789&ref_num=02552222&trace_num=2588855555555&amount=100000
         Method = POST
         Headers = {
                                     Client-Key: the client key that were gavin to you in the previews document,
@@ -415,21 +415,21 @@ the process of releasing an insurance in the app is different from what ad to gi
                                 {
                                     "OfferID": 1,
                                     "CompanyName": "سامان",
-                                    "DentalSupport": "100000",
-                                    "SurgerySupportA": "6000000",
-                                    "MedicineSupport": "100000",
-                                    "PregnancySupport": "1500000",
-                                    "MTestSupport": "100000",
-                                    "ParaClinicSupportA": "300000",
-                                    "ParaClinicSupportB": "150000",
-                                    "HospitalSupport": "3000000",
-                                    "SurgerySupportB": "150000",
-                                    "AmbulanceSupport": "200000",
-                                    "ageA": 250000,
-                                    "ageB": 500000,
-                                    "ageC": 600000,
-                                    "ageD": 750000,
-                                    "totalPrice": 500000
+                                    "DentalSupport": "100000" پوشش دندانپزشکی,
+                                    "SurgerySupportA": "6000000" پوشش جراحی های مهم,
+                                    "MedicineSupport": "100000" ویزیت و دارو,
+                                    "PregnancySupport": "1500000" پوشش زایمانی,
+                                    "MTestSupport": "100000" ام تی تست,
+                                    "ParaClinicSupportA": "300000" پوشش پاراکلینیک گروه اول,
+                                    "ParaClinicSupportB": "150000"پوشش پاراکلینیک گروه دوم,
+                                    "HospitalSupport": "3000000" بیمارستان,
+                                    "SurgerySupportB": "150000" جراحی مجاز یرپایی,
+                                    "AmbulanceSupport": "200000" امبولانس شهری و بین شهری,
+                                    "ageA": 250000 هزینه ی نفری در بازه سنی 0-15,
+                                    "ageB": 500000 هزینه ی نفری در بازه سنی 15-50,
+                                    "ageC": 600000 هزینه ی نفری در بازه سنی 50-60,
+                                    "ageD": 750000 هزینه ی نفری در بازه سنی بیشتر از 60 سالگی,
+                                    "totalPrice": 500000 هزینه ی کل گرح با توجه به تعداد نفرات و بازه سنیشان و داشتن دفترچه بیمه
                                 },
                                 {
                                     "OfferID": 2,
