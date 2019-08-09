@@ -2,6 +2,8 @@ welcome to hashtagbime's api
 in this readme file i will guide you through creating, submitting, paying, and receiving the insurance file
 the process of releasing an insurance in the app is different from what ad to give you so this version is dedicated to SAMAN and the client's who support their insurance
 
+MAIN URL: "87.107.135.248:3000"
+
 1. creating a new health request:
     when creating a health request we have three concepts:
     a. the health request: is the health request
