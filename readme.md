@@ -394,7 +394,7 @@ MAIN URL: "87.107.135.248:3000"
                 2: when filling the health form in case of having a set of questions (parentQuestionID is not null) if the parent is 1 then at least one of the subset questions must have a value (1 or a text depends on the filled subset type)
 
 5. payment process:
-    whenever thee user request's to pay the fee of the health request the api will return an invoice:
+    whenever the user request's for payment the api will return an invoice:
     the payment process is in two fazes
     a. requesting the payment page and amount
         `{
