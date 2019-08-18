@@ -206,7 +206,7 @@ MAIN URL: "87.107.135.248:3000"
     this part of the api helps you get reports about the requests and sub requests:
     a. get the health offers for the health request
         `{
-            URL:"/SamanAPI/Statistics/healthOffersParameters"
+            URL:"/SamanAPI/Statistics/healthOffers"
             Method: 'GET',
             Headers:{
                         Client-Key: the client key that were gavin to you in the previews document,
