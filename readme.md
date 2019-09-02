@@ -16,7 +16,7 @@ MAIN URL: "87.107.135.248:3000"
             URL:"/samanAPI/HealthRequests/BasicInformation/",
             Method: 'POST',
             Headers:{
-                        Client-Key: the client key that were gavin to you in the previews document,
+                        Client-Key: the client key that were given to you in the previews document,
                         Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                         },  
             body:{
@@ -42,7 +42,7 @@ MAIN URL: "87.107.135.248:3000"
             URL:"/samanAPI/HealthRequests/createSubRequests/",
             Method: 'POST'
             Headers:{
-                                Client-Key: the client key that were gavin to you in the previews document,
+                                Client-Key: the client key that were given to you in the previews document,
                                 Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                       },
             body:{
@@ -63,7 +63,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL: "/SamanAPI/HealthRequests/SelectHealthOffer",
                 Method: 'GET',
                 Headers: {
-                            Client-Key: the client key that were gavin to you in the previews document,
+                            Client-Key: the client key that were given to you in the previews document,
                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                             },
                 Params: {
@@ -80,7 +80,7 @@ MAIN URL: "87.107.135.248:3000"
             URL:"/SamanAPI/HealthRequests/SubmitSubRequest",
             Method: 'POST',
             Headers:{
-                                        Client-Key: the client key that were gavin to you in the previews document,
+                                        Client-Key: the client key that were given to you in the previews document,
                                         Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                               }
             body:{
@@ -106,7 +106,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL:"/SamanAPI/FileControl/uploadNationalCard",
                 Method: 'POST',
                 Headers:{
-                                            Client-Key: the client key that were gavin to you in the previews document,
+                                            Client-Key: the client key that were given to you in the previews document,
                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 params = {
@@ -128,7 +128,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL:"/SamanAPI/FileControl/uploadInsuranceCard",
                 Method: 'POST',
                 Headers:{
-                                            Client-Key: the client key that were gavin to you in the previews document,
+                                            Client-Key: the client key that were given to you in the previews document,
                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 params = {
@@ -149,7 +149,7 @@ MAIN URL: "87.107.135.248:3000"
                  URL:"/SamanAPI/FileControl/uploadBirthCertificate",
                  Method: 'POST',
                  Headers:{
-                                             Client-Key: the client key that were gavin to you in the previews document,
+                                             Client-Key: the client key that were given to you in the previews document,
                                              Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                    },
                  params = {
@@ -171,7 +171,7 @@ MAIN URL: "87.107.135.248:3000"
                  URL:"/SamanAPI/FileControl/uploadGeneralTest",
                  Method: 'POST',
                  Headers:{
-                                             Client-Key: the client key that were gavin to you in the previews document,
+                                             Client-Key: the client key that were given to you in the previews document,
                                              Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                    },
                 params = {
@@ -193,7 +193,7 @@ MAIN URL: "87.107.135.248:3000"
         URL:"/SamanAPI/FileControl/InsuranceDownload",
         Method: 'GET',
         Headers:{
-                                    Client-Key: the client key that were gavin to you in the previews document,
+                                    Client-Key: the client key that were given to you in the previews document,
                                     Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                           },
         Parameters: {
@@ -210,7 +210,7 @@ MAIN URL: "87.107.135.248:3000"
             URL:"/SamanAPI/Statistics/healthOffers"
             Method: 'GET',
             Headers:{
-                        Client-Key: the client key that were gavin to you in the previews document,
+                        Client-Key: the client key that were given to you in the previews document,
                         Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                     },
             Parameters: {
@@ -249,7 +249,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL:"/SamanAPI/Statistics/SelectedHealthOffer",
                 Method: 'GET',
                 Headers:{
-                                            Client-Key: the client key that were gavin to you in the previews document,
+                                            Client-Key: the client key that were given to you in the previews document,
                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 Parameters: {
@@ -280,7 +280,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL:"/SamanAPI/Statistics/HealthRequestsList",
                 Method: 'GET',
                 Headers:{
-                                            Client-Key: the client key that were gavin to you in the previews document,
+                                            Client-Key: the client key that were given to you in the previews document,
                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 response: {
@@ -305,7 +305,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL:"/SamanAPI/Statistics/GetSubRequestsStatus",
                 Method: 'GET',
                 Headers:{
-                                            Client-Key: the client key that were gavin to you in the previews document,
+                                            Client-Key: the client key that were given to you in the previews document,
                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 Parameters: {
@@ -341,7 +341,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL: "/samanAPI/Statistics/HealthRequestsLisByPhoneNumber",
                 Method: "GET"
                 Headers:{
-                                                Client-Key: the client key that were gavin to you in the previews document,
+                                                Client-Key: the client key that were given to you in the previews document,
                                                 Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                       },
                 Params: {
@@ -365,7 +365,7 @@ MAIN URL: "87.107.135.248:3000"
                 URL: "/samanAPI/Statistics/HealthFormList",
                 Method: "GET",
                 Headers:{
-                                                Client-Key: the client key that were gavin to you in the previews document,
+                                                Client-Key: the client key that were given to you in the previews document,
                                                 Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                       },
                 response: {
@@ -388,7 +388,7 @@ MAIN URL: "87.107.135.248:3000"
             P.S 
                 1: dataTypes:
                     varchar: a string
-                    varchar(number): astring with a specific number of characters
+                    varchar(number): a string with a specific number of characters
                     ['item1', 'item2', ..., 'itemN']: list of the specific values allowed as an answer to the question
                     number: an number
                     number(number): number with specific length
@@ -396,59 +396,6 @@ MAIN URL: "87.107.135.248:3000"
                     text: long string (used for description and "more" like textArray)
                 2: when filling the health form in case of having a set of questions (parentQuestionID is not null) if the parent is 1 then at least one of the subset questions must have a value (1 or a text depends on the filled subset type)
 
-5. payment process:
-    whenever the user request's for payment the api will return an invoice:
-    the payment process is in two fazes
-    a. requesting the payment page and amount
-        `{
-            URL:"/samanAPI/Payment/inVoice",
-            Method: 'GET'
-            Headers:{
-                                        Client-Key: the client key that were gavin to you in the previews document,
-                                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
-                              }
-            Parameters: {
-                requestID = the id of the health request
-            }
-            response: {
-                                "success": true,
-                                "data": {
-                                    "res_num": factor number (integer),
-                                    "amount": 100 (final total price in toman),
-                                    "subRequestsIDList": the list of the sub request id's that are ready to be paid and where calculated in the process of calculating total price
-                                    [
-                                        {
-                                            "subRequestID": 329
-                                        },
-                                        {
-                                            "subRequestID": 330
-                                        }
-                                    ]
-                                }
-                            }
-            response status code on success = 200
-        }`    
-    b. approving the payment
-        `{
-            URL:"/samanAPI/Payment/callback",
-            Method: 'POST',
-            Headers:{
-                                        Client-Key: the client key that were gavin to you in the previews document,
-                                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
-                              },
-            params = {
-                res_num: شناسه فاکتور,
-                msisdn: شماره موبای کاربر,
-                ref_num: شماره ارجاع پرداخت,
-                trace_num: شماره پیگیری پرداخت,
-                amount: مبلغ پرداخت شده
-            },
-            response: {
-                               "success": true,
-                               "message": "تراکنش با موفقیت انجام شد"
-                           },
-        }`
-        response status code on success = 200
                                        
 response codes:
 -	200 OK: Successful
