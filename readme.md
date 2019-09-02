@@ -42,7 +42,7 @@ MAIN URL: "87.107.135.248:3000"
             Method: 'POST'
             Headers:{
                                 Client-Key: the client key that were gavin to you in the previews document,
-                                Authorization : user token given in the creation request
+                                Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                       },
             body:{
                            "requestID": 457 [value type(integer), required(true), persian(شناسه ی درخواست اصلی)],
@@ -63,7 +63,7 @@ MAIN URL: "87.107.135.248:3000"
                 Method: 'GET',
                 Headers: {
                             Client-Key: the client key that were gavin to you in the previews document,
-                            Authorization : user token given in the creation request
+                            Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                             },
                 Params: {
                     offerID: the id of the offer the user selected,
@@ -80,7 +80,7 @@ MAIN URL: "87.107.135.248:3000"
             Method: 'POST',
             Headers:{
                                         Client-Key: the client key that were gavin to you in the previews document,
-                                        Authorization : user token given in the creation request
+                                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                               }
             body:{
                 "requestID" : 458 ,
@@ -106,7 +106,7 @@ MAIN URL: "87.107.135.248:3000"
                 Method: 'POST',
                 Headers:{
                                             Client-Key: the client key that were gavin to you in the previews document,
-                                            Authorization : user token given in the creation request
+                                            Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 params = {
                     requestID: request id (required),
@@ -128,7 +128,7 @@ MAIN URL: "87.107.135.248:3000"
                 Method: 'POST',
                 Headers:{
                                             Client-Key: the client key that were gavin to you in the previews document,
-                                            Authorization : user token given in the creation request
+                                            Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 params = {
                     requestID: request id (required),
@@ -149,7 +149,7 @@ MAIN URL: "87.107.135.248:3000"
                  Method: 'POST',
                  Headers:{
                                              Client-Key: the client key that were gavin to you in the previews document,
-                                             Authorization : user token given in the creation request
+                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                    },
                  params = {
                     requestID: request id (required),
@@ -171,7 +171,7 @@ MAIN URL: "87.107.135.248:3000"
                  Method: 'POST',
                  Headers:{
                                              Client-Key: the client key that were gavin to you in the previews document,
-                                             Authorization : user token given in the creation request
+                                             Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                    },
                 params = {
                     requestID: request id (required),
@@ -193,7 +193,7 @@ MAIN URL: "87.107.135.248:3000"
         Method: 'GET',
         Headers:{
                                     Client-Key: the client key that were gavin to you in the previews document,
-                                    Authorization : user token given in the creation request
+                                    Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                           },
         Parameters: {
                         "subRequestID": the sub request id
@@ -210,7 +210,7 @@ MAIN URL: "87.107.135.248:3000"
             Method: 'GET',
             Headers:{
                         Client-Key: the client key that were gavin to you in the previews document,
-                        Authorization : user token given in the creation request
+                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                     },
             Parameters: {
                             requestID: the request id
@@ -249,7 +249,7 @@ MAIN URL: "87.107.135.248:3000"
                 Method: 'GET',
                 Headers:{
                                             Client-Key: the client key that were gavin to you in the previews document,
-                                            Authorization : user token given in the creation request
+                                            Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 Parameters: {
                                 requestID: the request id
@@ -280,7 +280,7 @@ MAIN URL: "87.107.135.248:3000"
                 Method: 'GET',
                 Headers:{
                                             Client-Key: the client key that were gavin to you in the previews document,
-                                            Authorization : user token given in the creation request
+                                            Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 response: {
                                     "success": true,
@@ -305,7 +305,7 @@ MAIN URL: "87.107.135.248:3000"
                 Method: 'GET',
                 Headers:{
                                             Client-Key: the client key that were gavin to you in the previews document,
-                                            Authorization : user token given in the creation request
+                                            Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                   },
                 Parameters: {
                                 requestID: the health request's id
@@ -402,7 +402,7 @@ MAIN URL: "87.107.135.248:3000"
             Method: 'GET'
             Headers:{
                                         Client-Key: the client key that were gavin to you in the previews document,
-                                        Authorization : user token given in the creation request
+                                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                               }
             Parameters: {
                 requestID = the id of the health request
@@ -431,7 +431,7 @@ MAIN URL: "87.107.135.248:3000"
             Method: 'POST',
             Headers:{
                                         Client-Key: the client key that were gavin to you in the previews document,
-                                        Authorization : user token given in the creation request
+                                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                               },
             params = {
                 res_num: شناسه فاکتور,
