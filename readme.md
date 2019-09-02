@@ -455,7 +455,7 @@ response codes:
 -	201 Created: Created
 -	400 Bad Request: Bad input parameter. Error message should indicate which one and why.
 -	401 Unauthorized: The client passed in the invalid Auth token. Client should refresh the token and then try again.
--	403 Forbidden: * Customer doesn’t exist. * Application not registered. * Application try to access to properties not belong to an App. * Application try to trash/purge root node. * Application try to update contentProperties. * Operation is blocked (for third-party apps). * Customer account over quota.
+-	403 Forbidden: * Customer doesn't exist. * Application not registered. * Application try to access to properties not belong to an App. * Application try to trash/purge root node. * Application try to update contentProperties. * Operation is blocked (for third-party apps). * Customer account over quota.
 -	404 Not Found: Resource not found.
 -	405 Method Not Allowed: The resource doesn't support the specified HTTP verb.
 -	409 Conflict: Conflict.
