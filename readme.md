@@ -17,6 +17,7 @@ MAIN URL: "87.107.135.248:3000"
             Method: 'POST',
             Headers:{
                         Client-Key: the client key that were gavin to you in the previews document,
+                        Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                         },  
             body:{
                             "birthday": "1993-03-16" [value type(date), required(true), persian(تاریخ تولد)],
@@ -340,7 +341,8 @@ MAIN URL: "87.107.135.248:3000"
                 URL: "/samanAPI/Statistics/HealthRequestsLisByPhoneNumber",
                 Method: "GET"
                 Headers:{
-                                                Client-Key: the client key that were gavin to you in the previews document
+                                                Client-Key: the client key that were gavin to you in the previews document,
+                                                Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                       },
                 Params: {
                     phone: the user's phone number
@@ -363,7 +365,8 @@ MAIN URL: "87.107.135.248:3000"
                 URL: "/samanAPI/Statistics/HealthFormList",
                 Method: "GET",
                 Headers:{
-                                                Client-Key: the client key that were gavin to you in the previews document
+                                                Client-Key: the client key that were gavin to you in the previews document,
+                                                Authorization: the authorization in this aoi depends on the the user's phone number, just enter the phone nomber of the current user in the authorization header.
                                       },
                 response: {
                                     "success": true,
